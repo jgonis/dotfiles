@@ -1,11 +1,11 @@
 #!/bin/sh
 set -e
 
-GITHUB_USERNAME="ShawnToubeau"
+GITHUB_USERNAME="jgonis"
 
 echo "[CONFIG] GitHub Email and Username"
-git config --global user.email "shawntoubeau@gmail.com"
-git config --global user.name "ShawnToubeau"
+git config --global user.email "jeffgonis@fb.com"
+git config --global user.name "Jeff Gonis"
 
 echo "[INSTALL] Ohmyzsh"
 git clone https://github.com/ohmyzsh/ohmyzsh.git ~/.oh-my-zsh
