@@ -157,6 +157,7 @@ alias bz="bazel"
 alias bzr="bazel run"
 alias bzb="bazel build"
 alias bzt="bazel test"
+alias rghf="rg --hidden -F"
 
 # Load ssh keys
 #zstyle :omz:plugins:ssh-agent identities id_ed25519
