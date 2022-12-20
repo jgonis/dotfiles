@@ -1,6 +1,6 @@
 #!/bin/sh
 set -e
-exit 0
+
 GITHUB_USERNAME="jgonis"
 
 echo "[CONFIG] GitHub Email and Username"
