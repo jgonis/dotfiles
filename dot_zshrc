@@ -153,6 +153,13 @@ alias ohmyzsh="code ~/.oh-my-zsh"
 
 alias reload="source ~/.zshrc"
 alias gs="git status"
+alias gl='git log --all --decorate --oneline --graph'
+alias ll='ls -alF'
+alias la='ls -A'
+alias lsd='ls -dlh */'
+alias lash='ls -lAShr'
+alias laht='ls -lAhtr'
+alias l.='ls -d .* --color=auto'
 alias bz="bazel"
 alias bzr="bazel run"
 alias bzb="bazel build"
