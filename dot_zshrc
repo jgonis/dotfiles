@@ -168,6 +168,9 @@ alias rghf="rg --hidden -F"
 alias cpi="cp -i"
 alias ucp="cp -u"
 alias mvi="mv -i"
+alias lshlss="ls --color -lAShr | less -R"
+alias lhtlss="ls --color -LAhtr | less -R"
+alias trlss="tree -C -f | less -R"
 
 # Load ssh keys
 #zstyle :omz:plugins:ssh-agent identities id_ed25519
