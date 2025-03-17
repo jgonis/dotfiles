@@ -154,7 +154,7 @@ alias ohmyzsh="code ~/.oh-my-zsh"
 alias reload="source ~/.zshrc"
 alias gs="git status"
 alias gl='git log --all --decorate --oneline --graph'
-alias ll='ls -alF'
+alias ll='ls -al'
 alias la='ls -A'
 alias lsd='ls -dlh */'
 alias lash='ls -lAShr'
@@ -165,6 +165,9 @@ alias bzr="bazel run"
 alias bzb="bazel build"
 alias bzt="bazel test"
 alias rghf="rg --hidden -F"
+alias cpi="cp -i"
+alias ucp="cp -u"
+alias mvi="mv -i"
 
 # Load ssh keys
 #zstyle :omz:plugins:ssh-agent identities id_ed25519
